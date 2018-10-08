@@ -1,0 +1,28 @@
+{
+  "name": "simple-form-data",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "rollup index.js --file dist/index.js --format umd --name \"simple-form-data\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnixCoda/simple-form-data.git"
+  },
+  "keywords": [
+    "form",
+    "data"
+  ],
+  "author": "EnixCoda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnixCoda/simple-form-data/issues"
+  },
+  "homepage": "https://github.com/EnixCoda/simple-form-data#readme",
+  "devDependencies": {
+    "rollup": "^0.66.4"
+  }
+}
